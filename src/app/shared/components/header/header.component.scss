@@ -1,0 +1,12 @@
+a{
+  color: black;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #6d29da;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #6d29da;
+}
