@@ -1,12 +1,19 @@
-a{
+a {
   color: black;
   font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 a:hover {
   color: #6d29da;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+/* Adicionando a cor de fundo e a cor do texto para a classe active */
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
   background-color: #6d29da;
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  border-radius: 0.25rem;
 }
